@@ -1,0 +1,52 @@
+{"Records": [
+        {
+            "eventID": "208a4ea0748cf958a155b59f24f54528",
+            "eventName": "MODIFY",
+            "eventVersion": "1.0",
+            "eventSource": "aws:dynamodb",
+            "awsRegion": "us-west-2",
+            "dynamodb": {
+                "Keys": {
+                    "Local": {
+                        "S": "in"
+                    },
+                    "Timestamp": {
+                        "N": "1451290656"
+                    }
+                },
+                "NewImage": {
+                    "EmailType": {
+                        "S": "newsletter"
+                    },
+                    "ReferenceId": {
+                        "N": "1"
+                    },
+                    "Local": {
+                        "S": "in"
+                    },
+                    "Timestamp": {
+                        "N": "1451290656"
+                    }
+                },
+                "OldImage": {
+                    "EmailType": {
+                        "S": "testnewsletter"
+                    },
+                    "ReferenceId": {
+                        "N": "1"
+                    },
+                    "Local": {
+                        "S": "in"
+                    },
+                    "Timestamp": {
+                        "N": "1451290656"
+                    }
+                },
+                "SequenceNumber": "7843300000000001430158622",
+                "SizeBytes": 134,
+                "StreamViewType": "NEW_AND_OLD_IMAGES"
+            },
+            "eventSourceARN": "arn:aws:dynamodb:us-west-2:239008661775:table/BulkEmailTest/stream/2015-12-30T03:52:26.516"
+        }
+    ]
+}
